@@ -46,6 +46,8 @@ while choice != "e":
                             print(num1, "/", num2, "=", divide(num1, num2))
         except ValueError:
             print("That was not a valid number.  Try again...")
+        except ZeroDivisionError:
+            print("Zero division error; you can not divide by zero")
 
 print("Exiting ....")
      
