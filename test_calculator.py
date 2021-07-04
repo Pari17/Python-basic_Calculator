@@ -1,9 +1,9 @@
 
 
 import unittest
-from basic_Calculator import calculator
+from basic_calculator import calculator
 
-class IntegerArithmeticTestCase(unittest.TestCase):
+class CalculatorTestCase(unittest.TestCase):
     
     def test_addition(self):
         self.assertEqual(calculator().add(1, 2), 3, "Expected 3") 
